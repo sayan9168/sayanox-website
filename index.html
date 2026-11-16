@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary SEO -->
+  <title>Sayanox — Original Systems Programming Language (.sa) by Sayan Mahata</title>
+  <meta name="description" content="Sayanox is an original systems programming language created by Sayan Mahata (sayan9168). File extension .sa. Self-hosting compiler, native x86-64 AOT, offline packages, growing standard library. One of the few original programming languages from India." />
+  <meta name="keywords" content="Sayanox, Sayanox language, .sa programming language, Sayan Mahata, sayan9168, systems programming language, self-hosting compiler, native AOT, Indian programming language, Sayanox Private Limited" />
+  <meta name="author" content="Sayan Mahata" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://sayanox.dev/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sayanox.dev/" />
+  <meta property="og:title" content="Sayanox — Original Systems Programming Language (.sa)" />
+  <meta property="og:description" content="Created by Sayan Mahata. Self-hosting compiler, native x86-64 AOT, offline packages. Easy to read, easy to write, powerful enough for real systems work." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/sayan9168/sayanox/main/assets/sayanox-logo-256.png" />
+  <meta property="og:site_name" content="Sayanox" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sayanox — Original Systems Programming Language (.sa)" />
+  <meta name="twitter:description" content="Created by Sayan Mahata (sayan9168). Self-hosting, native AOT, growing stdlib." />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/sayan9168/sayanox/main/assets/sayanox-logo-256.png" />
+  <meta name="twitter:creator" content="@notfound_sayan" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Sayanox",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Linux",
+    "description": "Original systems programming language with self-hosting compiler, native x86-64 AOT, offline packages and growing standard library. File extension .sa.",
+    "url": "https://sayanox.dev",
+    "downloadUrl": "https://github.com/sayan9168/sayanox",
+    "softwareVersion": "Active Development",
+    "author": {
+      "@type": "Person",
+      "name": "Sayan Mahata",
+      "alternateName": ["Sayan The Researcher", "sayan9168"],
+      "url": "https://sayan9168.github.io",
+      "sameAs": [
+        "https://github.com/sayan9168",
+        "https://orcid.org/0009-0002-3491-6570",
+        "https://x.com/notfound_sayan"
+      ]
+    },
+    "license": "https://github.com/sayan9168/sayanox-license",
+    "programmingLanguage": "Sayanox"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sayan Mahata",
+    "alternateName": "Sayan The Researcher",
+    "jobTitle": "System Architect & Security Researcher",
+    "description": "Founder of Sayanox Private Limited and creator of the original Sayanox programming language (.sa).",
+    "url": "https://sayan9168.github.io",
+    "image": "https://sayan9168.github.io/sayan-mahata-sayan9168.jpg",
+    "sameAs": [
+      "https://github.com/sayan9168",
+      "https://orcid.org/0009-0002-3491-6570",
+      "https://x.com/notfound_sayan",
+      "https://www.linkedin.com/in/sayan-mahata-a8b321391"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Medinipur",
+      "addressRegion": "West Bengal",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+
+  <link rel="icon" href="https://raw.githubusercontent.com/sayan9168/sayanox/main/assets/sayanox-logo-256.png" type="image/png" />
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/sayan9168/sayanox/main/assets/sayanox-logo-256.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <img src="https://raw.githubusercontent.com/sayan9168/sayanox/main/assets/sayanox-logo-256.png" alt="Sayanox logo" width="36" height="36" />
+        <span>Sayanox</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#syntax">Syntax</a>
+        <a href="#creator">Creator</a>
+        <a href="#get-started">Get Started</a>
+        <a href="#ecosystem">Ecosystem</a>
+        <a href="https://github.com/sayan9168/sayanox" class="btn btn-sm" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container hero-inner">
+      <div class="hero-badge">Original Systems Language · File Extension .sa</div>
+      <h1>Sayanox</h1>
+      <p class="hero-tagline">
+        Easy to read. Easy to write.<br />
+        Powerful enough for real systems work.
+      </p>
+      <p class="hero-sub">
+        A completely original systems programming language with a self-hosting compiler, 
+        native x86-64 AOT, offline packages, and a growing standard library. 
+        Created by <strong>Sayan Mahata</strong> — one of the few original programming languages from India.
+      </p>
+      <div class="hero-cta">
+        <a href="https://github.com/sayan9168/sayanox" class="btn btn-primary" target="_blank" rel="noopener">
+          View on GitHub
+        </a>
+        <a href="#get-started" class="btn btn-secondary">Get Started</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-value">Self-hosting</span>
+          <span class="stat-label">seed → gen3</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">Native AOT</span>
+          <span class="stat-label">x86-64 Linux</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">Offline pkgs</span>
+          <span class="stat-label">+ growing stdlib</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">.sa</span>
+          <span class="stat-label">File extension</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="section-title">Why Sayanox?</h2>
+      <p class="section-desc">
+        Most new languages are either too academic or thin wrappers around existing runtimes. 
+        Sayanox aims for a clean middle ground.
+      </p>
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">🔁</div>
+          <h3>Self-Hosting</h3>
+          <p>The compiler is written in Sayanox itself. Pure-min dialect: seed → gen1 → gen2 → gen3, byte-identical.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Native AOT</h3>
+          <p>Native ahead-of-time compilation for x86-64 Linux. Also emits i386, aarch64 and riscv64 ELF.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">📦</div>
+          <h3>Offline Packages</h3>
+          <p>Full package tool (sxpkg) written in Sayanox — digests, HMAC signatures, public-key verification.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🛠</div>
+          <h3>Tools in Sayanox</h3>
+          <p>Formatter, package manager, language server (LSP) — all maintained in Sayanox.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">📐</div>
+          <h3>Readable Syntax</h3>
+          <p>hold / show, when / otherwise, make / give. Designed to be easy to read and write.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🇮🇳</div>
+          <h3>Made in India</h3>
+          <p>One of the few original systems programming languages being built from India with a strong self-hosting focus.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Syntax -->
+  <section id="syntax" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Syntax at a Glance</h2>
+      <p class="section-desc">Clean, minimal, powerful. Source files use the <code>.sa</code> extension.</p>
+      <div class="code-grid">
+        <div class="code-block">
+          <div class="code-header">Bindings &amp; Output</div>
+          <pre><code><span class="kw">hold</span> value = <span class="num">42</span>
+<span class="kw">hold</span> name = <span class="str">"Sayan"</span>
+<span class="kw">show</span> value
+<span class="kw">show</span> <span class="str">"text"</span>
+<span class="kw">show</span> value + <span class="num">1</span></code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header">Functions</div>
+          <pre><code><span class="kw">make</span> square(x) {
+  <span class="kw">give</span> x * x
+}
+<span class="kw">show</span> square(<span class="num">8</span>)</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header">Conditions &amp; Loops</div>
+          <pre><code><span class="kw">when</span> condition {
+  <span class="kw">show</span> <span class="str">"yes"</span>
+} <span class="kw">otherwise</span> {
+  <span class="kw">show</span> <span class="str">"no"</span>
+}
+<span class="kw">while</span> condition {
+  <span class="kw">show</span> <span class="str">"loop"</span>
+}</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header">Lists &amp; Structs</div>
+          <pre><code><span class="kw">hold</span> values = [<span class="num">1</span>, <span class="num">2</span>, <span class="num">3</span>]
+<span class="kw">hold</span> p = {x: <span class="num">10</span>, xs: values}
+<span class="kw">for</span> v <span class="kw">in</span> p.xs {
+  <span class="kw">show</span> v
+}</code></pre>
+        </div>
+      </div>
+      <p class="syntax-note">
+        Full syntax reference, type system, modules, generics and status tables live in the 
+        <a href="https://github.com/sayan9168/sayanox/tree/main/docs" target="_blank" rel="noopener">official docs</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Creator -->
+  <section id="creator" class="section">
+    <div class="container">
+      <h2 class="section-title">Created by Sayan Mahata</h2>
+      <div class="creator-card">
+        <div class="creator-photo">
+          <img src="https://sayan9168.github.io/sayan-mahata-sayan9168.jpg" alt="Official photo of Sayan Mahata — Founder of Sayanox" width="280" height="280" loading="lazy" />
+        </div>
+        <div class="creator-info">
+          <h3>Sayan Mahata</h3>
+          <p class="creator-aka">Also known as <strong>Sayan The Researcher</strong> · GitHub: <strong>sayan9168</strong></p>
+          <p>
+            System Architect &amp; Security Researcher from Medinipur, West Bengal, India. 
+            Founder of <strong>Sayanox Private Limited</strong> and creator of the original 
+            <strong>Sayanox programming language</strong> (.sa).
+          </p>
+          <p>
+            His work spans compilers, cybersecurity, OSINT, digital forensics and developer tooling 
+            across 80+ public repositories. He designs languages and systems with a strong focus on 
+            self-hosting, native performance and practical tooling.
+          </p>
+          <div class="creator-links">
+            <a href="https://github.com/sayan9168" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://sayan9168.github.io" target="_blank" rel="noopener">Portfolio</a>
+            <a href="https://orcid.org/0009-0002-3491-6570" target="_blank" rel="noopener">ORCID</a>
+            <a href="https://x.com/notfound_sayan" target="_blank" rel="noopener">X / Twitter</a>
+            <a href="mailto:sm6881164@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Started -->
+  <section id="get-started" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Get Started</h2>
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">1</span>
+          <div>
+            <h4>Clone the repository</h4>
+            <pre><code>git clone https://github.com/sayan9168/sayanox.git
+cd sayanox</code></pre>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">2</span>
+          <div>
+            <h4>Verify entry &amp; bootstrap</h4>
+            <pre><code>sha256sum -c bootstrap/sx.sha256
+./sx doctor
+./sx target gen2</code></pre>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-num">3</span>
+          <div>
+            <h4>Compile &amp; run a program</h4>
+            <pre><code>./sx target native
+./selfhost/native_aot examples/hello.sa hello
+./hello</code></pre>
+          </div>
+        </div>
+      </div>
+      <p class="center-note">
+        Full build instructions, status tables and migration notes are in the 
+        <a href="https://github.com/sayan9168/sayanox#quick-start" target="_blank" rel="noopener">README</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Ecosystem / Libraries -->
+  <section id="ecosystem" class="section">
+    <div class="container">
+      <h2 class="section-title">Ecosystem &amp; Libraries</h2>
+      <p class="section-desc">
+        The Sayanox ecosystem is actively growing. Official tools and future community libraries 
+        will be listed here. Want to publish a library? Use <code>sxpkg</code> and open a PR or issue.
+      </p>
+      <div class="eco-grid">
+        <div class="eco-card">
+          <h4>sxpkg</h4>
+          <p>Official package manager — init, add, install, sign, verify. Written in Sayanox.</p>
+        </div>
+        <div class="eco-card">
+          <h4>sxfmt</h4>
+          <p>Conservative whitespace-only formatter for .sa source.</p>
+        </div>
+        <div class="eco-card">
+          <h4>Language Server</h4>
+          <p>LSP with definition, references, rename, hover and workspace support.</p>
+        </div>
+        <div class="eco-card eco-soon">
+          <h4>Community Libraries</h4>
+          <p>Coming soon. When you publish a library, it can be listed and updated here.</p>
+        </div>
+      </div>
+      <div class="license-box">
+        <h4>License</h4>
+        <p>
+          Sayanox is released under the <strong>Sayanox License v1.1</strong> — 
+          an advanced open-source license with strong attribution and developer protection.
+          <a href="https://github.com/sayan9168/sayanox-license" target="_blank" rel="noopener">View license →</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="https://raw.githubusercontent.com/sayan9168/sayanox/main/assets/sayanox-logo-256.png" alt="" width="28" height="28" />
+        <span>Sayanox</span>
+      </div>
+      <p>
+        © 2025–2026 Sayan Mahata · Sayanox Private Limited<br />
+        Original systems programming language · Made in India
+      </p>
+      <div class="footer-links">
+        <a href="https://github.com/sayan9168/sayanox">GitHub</a>
+        <a href="https://sayan9168.github.io">Creator Portfolio</a>
+        <a href="https://github.com/sayan9168/sayanox/tree/main/docs">Docs</a>
+        <a href="https://github.com/sayan9168/sayanox-license">License</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
