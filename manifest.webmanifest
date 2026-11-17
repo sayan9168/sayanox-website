@@ -1,0 +1,18 @@
+{
+  "name": "Sayanox — Systems Programming Language",
+  "short_name": "Sayanox",
+  "description": "Original systems programming language (.sa) by Sayan Mahata. Self-hosting compiler, native AOT, offline packages.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f1a",
+  "theme_color": "#6366f1",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/sayan9168/sayanox/main/assets/sayanox-logo-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

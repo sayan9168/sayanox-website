@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sayanox.dev/sitemap.xml
+Sitemap: https://sayanox-website.sm6881164.workers.dev/sitemap.xml

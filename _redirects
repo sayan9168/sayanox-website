@@ -1,0 +1,6 @@
+# Cloudflare Pages style redirects (also works on many Workers static setups)
+/home    /   301
+/docs    https://github.com/sayan9168/sayanox/tree/main/docs   302
+/github  https://github.com/sayan9168/sayanox   302
+/repo    https://github.com/sayan9168/sayanox   302
+/license https://github.com/sayan9168/sayanox-license   302
